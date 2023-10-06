@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Protu Holds
 
-This is a Protu holds catalogue site with some details about the team.
+This is a Protu holds catalogue site source with some details about the team.
 
 ## Available Scripts
 
