@@ -24,7 +24,7 @@
   max-height: 120px;
   min-width: 40vw;
   margin: 0 auto;
-  background-image: url("img\\headerBack.png");
+  background-image: url("img/headerBack.png");
 }
 
 @media screen and (max-width: 600px) {
