@@ -1,0 +1,31 @@
+[   
+    {
+    "caption":"Estetic home climbing wall built by our friends, supplied with Protu holds",
+    "original":"pages/Projects/HomeWalls2.png",
+    "thumbnail":"pages/Projects/HomeWalls2.png",
+    "width":1000,
+    "height":750
+    },   
+    {
+        "caption":"Kids climbing holds getting direct attention in the Excibition",
+        "original":"pages/Projects/HomeWalls1.png",
+        "thumbnail":"pages/Projects/HomeWalls1.png",
+        "width":1130,
+        "height":750
+    },
+     
+    {
+        "caption":"Interactive 12Climb board and a top-roped corner bolted with Protu holds",
+        "original":"pages/Projects/HomeWalls4.png",
+        "thumbnail":"pages/Projects/HomeWalls4.png",
+        "width":1000,
+        "height":750
+    },
+    {
+        "caption":"Home wall built by Rockwell supplied with Protu toys",
+        "original":"pages/Projects/HomeWalls5.png",
+        "thumbnail":"pages/Projects/HomeWalls5.png",
+        "width":620,
+        "height":750
+    }   
+]

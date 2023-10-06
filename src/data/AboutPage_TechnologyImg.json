@@ -1,0 +1,59 @@
+[    
+    {
+        "caption":"Early version of the static mixing head",
+        "original":"pages/AboutUs/Technology1.png",
+        "thumbnail":"pages/AboutUs/Technology1.png",
+        "width":750,
+        "height":750
+    },
+    {
+        "caption":"Fine tuning cap 3D Model",
+        "original":"pages/AboutUs/Technology2.png",
+        "thumbnail":"pages/AboutUs/Technology2.png",
+        "width":1000,
+        "height":750
+    },
+    {
+        "caption":"Mixing machine and the post-curing oven",
+        "original":"pages/AboutUs/Technology3.png",
+        "thumbnail":"pages/AboutUs/Technology3.png",
+        "width":850,
+        "height":750
+    },       
+    {
+        "caption":"3D Model of the tribological tool",
+        "original":"pages/AboutUs/Technology4.png",
+        "thumbnail":"pages/AboutUs/Technology4.png",
+        "width":1000,
+        "height":750
+    }, 
+    {
+        "caption":"DIY air drying filter (covered) and a very sturdy handle for the mixing head",
+        "original":"pages/AboutUs/Technology5.png",
+        "thumbnail":"pages/AboutUs/Technology5.png",
+        "width":1000,
+        "height":750
+    },
+    {
+        "caption":"One of our largest vacuum chambers while modelling",
+        "original":"pages/AboutUs/Technology6.png",
+        "thumbnail":"pages/AboutUs/Technology6.png",
+        "width":1000,
+        "height":750
+    },    
+    {
+        "caption":"DIY foam-lathe for making perfectly round 'things'",
+        "original":"pages/AboutUs/Technology7.png",
+        "thumbnail":"pages/AboutUs/Technology7.png",
+        "width":750,
+        "height":750
+    }    
+    ,    
+    {
+        "caption":"DIY hose-flusher and container for keeping nosels",
+        "original":"pages/AboutUs/Technology8.png",
+        "thumbnail":"pages/AboutUs/Technology8.png",
+        "width":750,
+        "height":750
+    } 
+]

@@ -1,0 +1,31 @@
+[    
+    {
+        "caption":"One of the earliest shapes - the Dragon",
+        "original":"pages/AboutUs/draco.png",
+        "thumbnail":"pages/AboutUs/draco.png",
+        "width":750,
+        "height":750
+    },
+    {
+        "caption":"Protu stand in KomandaEx outdoor equipment center",
+        "original":"pages/AboutUs/KomandaEx.png",
+        "thumbnail":"pages/AboutUs/KomandaEx.png",
+        "width":720,
+        "height":750
+    },
+    {
+        "caption":"Shape of the Alien hold with eyes made of polished epoxy",
+        "original":"pages/AboutUs/alien.png",
+        "thumbnail":"pages/AboutUs/alien.png",
+        "width":1000,
+        "height":750
+    },    
+   
+    {
+        "caption":"Joined Ukrainian team (5 Fingers, RockWell, 12Climb, Protu) in Halls and Walls 2022 Expo",
+        "original":"pages/AboutUs/HallsnWalls_UkrTeam.png",
+        "thumbnail":"pages/AboutUs/HallsnWalls_UkrTeam.png",
+        "width":750,
+        "height":750
+    }
+]
