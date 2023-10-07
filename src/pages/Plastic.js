@@ -2,13 +2,16 @@
 
 import ProjectsHoldsImages from "../data/ProjectsPage_HoldsImg.json";
 import PhotoGallery from "../components/PhotoGallery";
+import { Link } from "react-router-dom";
 
 function Plastic(){
     return <>        
-        <div className="about_wrapper">
+        <div className="about_wrapper">            
             <div className="breadcrumbs">
-                    Projects/ <a href= "/plastic">Plastic</a>                    
-            </div>    
+                <Link to= "/">Home </Link> 
+                / About /
+                <Link to= "/plastic"> Plastic</Link>            
+            </div>
             <div className="about_wording">
                 <div className="about_title">
                     <h1>Holds, of course</h1>

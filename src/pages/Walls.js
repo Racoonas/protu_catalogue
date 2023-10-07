@@ -2,12 +2,15 @@
 
 import ProjectsHomeWallsImages from "../data/ProjectsPage_HomeWallsImg.json";
 import PhotoGallery from "../components/PhotoGallery";
+import {Link} from "react-router-dom";
 
 function Walls(){
     return <>
-        <div className="about_wrapper">            
+        <div className="about_wrapper">
             <div className="breadcrumbs">
-                    Projects/ <a href= "/walls">Walls</a>
+                <Link to= "/">Home </Link>
+                / About /
+                <Link to= "/walls"> Walls</Link>
             </div>
             <div className="about_wording">
                 <div className="about_title">

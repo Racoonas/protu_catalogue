@@ -36,9 +36,9 @@ function Hold(){
         <>
           <div className="holdset_overview">
                 <div className="breadcrumbs">
-                    <Link to="/holds">Holds/ </Link>
-                    <Link to= {`/holds?family=${holdDetails.family}`}>{holdDetails.family}/ </Link>                    
-                    {holdDetails.set}
+                    <Link to= "/">Home </Link>/
+                    <Link to="/holds"> Holds </Link>/
+                    <Link to= {`/holds?family=${holdDetails.family}`}> {holdDetails.family} </Link>/ {holdDetails.set}
                 </div>
                 <div className="holdset_name">
                     <h1>{holdDetails.set}</h1>                    

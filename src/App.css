@@ -293,17 +293,25 @@
   font-family: var(--font-family);
 }
 
+.breadcrumbs_wrapper{
+  width: 75vw;
+  margin: 0 auto;  
+}
+
 .breadcrumbs{
-  margin-top: 5px;      
+  font-family: var(--font-family);
+  font-weight: 300;
+  margin-top: 5px;
   color: var(--active-link-color);
+  padding-left: 5px;
 }
 
 .breadcrumbs a{
+  text-decoration: solid;
   color: var(--active-link-color);
 }
 
-.breadcrumbs a:hover {
-  color: var(--active-link-color);
+.breadcrumbs a:hover {  
   font-weight: bold
 }
 
@@ -483,13 +491,8 @@
   max-width: 1200px;
   margin: 0 auto;
   font-family: var(--font-family);
-  font-weight: 300;  
+  font-weight: 300;
   margin-bottom: 30px;
-}
-
-.about_wrapper .breadcrumbs{
-  padding: 7px;
-  background-color: var(--white-blocks-color);
 }
 
 .about_wording{  

@@ -2,12 +2,15 @@
 
 import AboutPeopleImages from "../data/AboutPage_People.json"
 import PhotoGallery from "../components/PhotoGallery";
+import {Link} from "react-router-dom";
 
 function People(){    
     return <>
         <div className="about_wrapper">
             <div className="breadcrumbs">
-                    About/ <a href= "/people">People</a>
+                <Link to= "/">Home </Link> 
+                / About /
+                <Link to= "/people"> People</Link>                      
             </div>
             <div className="about_wording">
                 <div className="about_title">

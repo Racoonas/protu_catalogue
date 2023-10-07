@@ -1,16 +1,23 @@
+import {Link} from "react-router-dom";
+
 import HyperionLogo from '../img/Partners/Hyperion.png'
 import SpaceLogo from '../img/Partners/ClimbingSpace.png'
 import RockWellLogo from '../img/Partners/Rockwell.png'
 import OneTwoClimbLogo from '../img/Partners/12Climb.png'
 
-
 function Partners(){
     return (
         <>        
+        <div className="breadcrumbs_wrapper">        
+            <div className="breadcrumbs">
+                <Link to= "/">Home </Link>/
+                <Link to= "/partners"> Partners</Link>                     
+            </div> 
+        </div> 
         <div className='partners_title'>
             <h1>Partners and Friends</h1>
-        </div>        
-        <div className="partners_wrapper">
+        </div>                    
+        <div className="partners_wrapper">                    
             <div className='partners_item'>
                 <a href = "https://www.climbingspace.com.ua/">
                     <img src = {SpaceLogo} alt = ""/>
@@ -47,10 +54,8 @@ function Partners(){
                     They also provide climbers with 12Climb application for tracking the routes and personal progress. <br/>
                     12Climb app is widely used in the biggest climbing halls in Ukraine.
                 </span>
-            </div>
-            
-            
-        </div>        
+            </div>            
+        </div>          
         </>
     );
 };

@@ -1,12 +1,15 @@
 //using https://www.npmjs.com/package/react-photoswipe-gallery
 import ProjectsTrophiesImages from "../data/ProjectsPage_TrophiesImg.json";
 import PhotoGallery from "../components/PhotoGallery";
+import {Link} from "react-router-dom";
 
 function Trophies(){
     return <>
-        <div className="about_wrapper">            
+        <div className="about_wrapper">
             <div className="breadcrumbs">
-                    Projects/ <a href= "/trophies">Trophies</a>                    
+                <Link to= "/">Home </Link>
+                / About /
+                <Link to= "/trophies"> Trophies</Link>
             </div> 
             <div className="about_wording">
                 <div className="about_title">

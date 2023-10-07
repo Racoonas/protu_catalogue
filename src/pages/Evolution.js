@@ -2,12 +2,15 @@
 
 import AboutEvolutionImages from "../data/AboutPage_EvolutionImg.json"
 import PhotoGallery from "../components/PhotoGallery";
+import {Link} from "react-router-dom";
 
 function Evolution(){    
     return <>
         <div className="about_wrapper">
             <div className="breadcrumbs">
-                    About/ <a href= "/evolution">Evolution</a>                    
+                <Link to= "/">Home </Link> 
+                / About /
+                <Link to= "/evolution"> Evolution</Link>                
             </div> 
             <div className="about_wording">
                 <div className="about_title">
