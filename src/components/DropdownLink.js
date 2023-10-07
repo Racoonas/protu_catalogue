@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Dropdown from 'react-bootstrap/Dropdown';
+import { NavLink } from 'react-router-dom';
 
 function DropdownLink({title, options, style}) {
   const CustomToggle = React.forwardRef(({ children, onClick }, ref) => (
@@ -50,7 +51,12 @@ function DropdownLink({title, options, style}) {
       <Dropdown.Toggle as={CustomToggle} id="dropdown-custom-components">{title}</Dropdown.Toggle>      
       <Dropdown.Menu as={CustomMenu}>
         {options.map((option, index)=>{
-          return <Dropdown.Item key = {index} href={option.href} eventKey={index}> {option.title} </Dropdown.Item>
+          return <Dropdown.Item 
+                    as = {NavLink}
+                    key = {index} 
+                    to={option.href}                    
+                    eventKey={index}> {option.title} 
+                </Dropdown.Item>
         })
       }
       </Dropdown.Menu>      
