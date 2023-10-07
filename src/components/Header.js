@@ -2,7 +2,11 @@ import logoBig from '../img/logoBig.png'
 import {NavLink} from 'react-router-dom';
 import DropdownLink from './DropdownLink';
 
-function Header(){         
+function Header(){      
+    const darkBackground = {
+        backgroundColor: 'var(--main-color)'
+    };
+    
     return (
         <>
             <div className="header">
@@ -18,6 +22,7 @@ function Header(){
                         </div>
                         <div className='navigation-item'>                        
                         <DropdownLink className='navigation-dropdown'
+                            style = {darkBackground}
                             title = "Projects"
                             options = {[
                                 {title:"Plastic", href:"/plastic"},
@@ -28,6 +33,7 @@ function Header(){
                         </div>
                         <div className='navigation-item'>
                         <DropdownLink className='navigation-dropdown'
+                            style = {darkBackground}
                             title = "About"
                             options = {[
                                 {title:"Evolution", href:"/evolution"},

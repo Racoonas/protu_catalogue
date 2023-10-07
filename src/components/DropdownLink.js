@@ -52,6 +52,7 @@ function DropdownLink({title, options, style}) {
       <Dropdown.Menu as={CustomMenu}>
         {options.map((option, index)=>{
           return <Dropdown.Item 
+                    style={style}
                     as = {NavLink}
                     key = {index} 
                     to={option.href}                    

@@ -4,7 +4,7 @@ function ItemBlock({item}){
     return(
         <div className = "item_block">
             <div className="item_image">
-                <NavLink to ={`set/${item.key}`}>
+                <NavLink to ={`/set/${item.key}`}>
                     <img  src = {item.images[0]} alt = ""/>            
                 </NavLink>                
             </div>                            
