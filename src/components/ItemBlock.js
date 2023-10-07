@@ -1,10 +1,12 @@
+import {NavLink} from 'react-router-dom';
+
 function ItemBlock({item}){
     return(
         <div className = "item_block">
             <div className="item_image">
-                <a href={`set/${item.key}`}>
+                <NavLink to ={`set/${item.key}`}>
                     <img  src = {item.images[0]} alt = ""/>            
-                </a>
+                </NavLink>                
             </div>                            
             <div className="item_details">                
                 <div className="item_name">
