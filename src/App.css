@@ -189,8 +189,7 @@
   display: grid;
   grid-template-columns:  repeat(4, 1fr);    
   width: 90vw;
-  margin: 2px auto;   
-  min-width: 400px;  
+  margin: 2px auto;     
   gap: 3px;
 }
 
