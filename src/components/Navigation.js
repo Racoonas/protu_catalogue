@@ -1,5 +1,6 @@
 import { useState, useRef } from 'react';
 import Overlay from 'react-bootstrap/Overlay';
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -53,30 +54,32 @@ function Navigation(){
         <div className='navigation_wrapper'>            
             <div className='mobile_navigation'>
                 <button ref={target} onClick={() => setShow(!show)} />                
-                <Overlay target={target.current} show={show} placement="bottom">
-                    {({
-                    placement: _placement,
-                    arrowProps: _arrowProps,
-                    show: _show,
-                    popper: _popper,
-                    hasDoneInitialMeasure: _hasDoneInitialMeasure,
-                    ...props
-                    }) => (
-                    <div
-                        {...props}
-                        style={{
-                        position: 'absolute',
-                        backgroundColor: '#2B3036',
-                        padding: '2px 10px',
-                        color: 'white',
-                        borderRadius: 3,
-                        ...props.style,
-                        }}
-                    >
-                        {innerMenu()}
-                    </div>
-                    )}
-                </Overlay>
+                <OverlayTrigger trigger='click' rootClose>                
+                    <Overlay target={target.current} show={show} placement="bottom">
+                        {({
+                        placement: _placement,
+                        arrowProps: _arrowProps,
+                        show: _show,
+                        popper: _popper,
+                        hasDoneInitialMeasure: _hasDoneInitialMeasure,
+                        ...props
+                        }) => (
+                        <div
+                            {...props}
+                            style={{
+                            position: 'absolute',
+                            backgroundColor: '#2B3036',
+                            padding: '2px 10px',
+                            color: 'white',
+                            borderRadius: 3,
+                            ...props.style,
+                            }}
+                        >
+                            {innerMenu()}
+                        </div>
+                        )}
+                    </Overlay>
+                </OverlayTrigger>
             </div>
             <div className='navigation'>
                 <Navbar className='navbar-dark' bg = "navigation" collapseOnSelect>     
