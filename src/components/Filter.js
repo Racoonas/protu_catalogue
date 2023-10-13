@@ -12,48 +12,48 @@ function Filter({filterState, setFilterState}){
     return (
         <>
             <div className="filter">
-            <div className="filter_select_wrapper">
-            <div className="filter_select_label">Family:</div>
-            <div className="filter_select_div">
-                <select className="filter_select" value={filterState.family} onChange={onFamilySelected}>
-                    {familyDropdownOptions.map((option, index)=>{
-                        return <option value = {option} key = {index}>{option}</option>
-                    })}
-                </select>
-            </div>                       
+                <div className="filter_select_wrapper">
+                    <div className="filter_select_label">Family:</div>
+                    <div className="filter_select_div">
+                        <select className="filter_select" value={filterState.family} onChange={onFamilySelected}>
+                            {familyDropdownOptions.map((option, index)=>{
+                                return <option value = {option} key = {index}>{option}</option>
+                            })}
+                        </select>
+                    </div>                       
+                </div>
+                <div className="filter_select_wrapper">
+                    <div className="filter_select_label">Size:</div>
+                    <div className="filter_select_div">
+                        <select className="filter_select" value={filterState.size} onChange={onSizeSelected}>
+                            {sizeDropdownOptions.map((option, index)=>{
+                                return <option value = {option} key = {index}>{option}</option>
+                            })}
+                        </select>
+                    </div>
+                </div>
+                <div className="filter_select_wrapper">
+                    <div className="filter_select_label">Grip:</div>
+                        <div className="filter_select_div">
+                            <select className="filter_select" value={filterState.grip} onChange={onGripSelected}>
+                            {gripDropdownOptions.map((option, index)=>{
+                                return <option value = {option} key = {index}>{option}</option>
+                            })}
+                            </select>
+                    </div>
+                </div>
+                <div className="filter_select_wrapper">
+                <div className="filter_select_label">Complexity:</div>
+                    <div className="filter_select_div">
+                        <select className="filter_select" value={filterState.complexity} onChange={onComplexitySelected}>
+                        {complexityDropdownOptions.map((option, index)=>{
+                            return <option value = {option} key = {index}>{option}</option>
+                        })}
+                        </select>
+                    </div>          
+                </div>
             </div>
-            <div className="filter_select_wrapper">
-            <div className="filter_select_label">Size:</div>
-            <div className="filter_select_div">
-                <select className="filter_select" value={filterState.size} onChange={onSizeSelected}>
-                    {sizeDropdownOptions.map((option, index)=>{
-                        return <option value = {option} key = {index}>{option}</option>
-                    })}
-                </select>
-            </div>
-            </div>
-            <div className="filter_select_wrapper">
-            <div className="filter_select_label">Grip:</div>
-            <div className="filter_select_div">
-                <select className="filter_select" value={filterState.grip} onChange={onGripSelected}>
-                {gripDropdownOptions.map((option, index)=>{
-                    return <option value = {option} key = {index}>{option}</option>
-                })}
-                </select>
-            </div>
-            </div>
-            <div className="filter_select_wrapper">
-            <div className="filter_select_label">Complexity:</div>
-            <div className="filter_select_div">
-                <select className="filter_select" value={filterState.complexity} onChange={onComplexitySelected}>
-                {complexityDropdownOptions.map((option, index)=>{
-                    return <option value = {option} key = {index}>{option}</option>
-                })}
-                </select>
-            </div>          
-            </div>
-        </div>
-      </>
+        </>
     )            
         
     function onFamilySelected(e){
