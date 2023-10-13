@@ -46,10 +46,10 @@
 
 .logo_container a{  
   display: flex;  
-  flex-direction: row;
+  flex-direction: column;
   height: 100%;      
   float: right;
-  align-items: center;    
+  justify-content: center;    
 }
 
 .logo_container img{    
