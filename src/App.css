@@ -433,7 +433,7 @@
 }
 
 .footer{
-  position: fixed;
+  position: relative;
   bottom: 0;  
   width:100vw;  
   min-width: 40vw;  
