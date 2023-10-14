@@ -1,6 +1,5 @@
-import { useState, useRef } from 'react';
+import { useState, useRef} from 'react';
 import Overlay from 'react-bootstrap/Overlay';
-import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -13,13 +12,13 @@ function Navigation(){
         backgroundColor: 'var(--main-color)'
     }
 
-    const [show, setShow] = useState(false);
+    const [showMobileMenu, setShowMobileMenu] = useState(false);
     const target = useRef(null);
 
     const innerMenu =()=>{
             return (
             <>
-                <div className='navigation-item'>
+                <div className='navigation-item' onClick={() => {setShowMobileMenu(false);}}>
                     <NavLink to="/holds">Holds</NavLink>
                 </div>
                 <div className='navigation-item'>                        
@@ -30,8 +29,9 @@ function Navigation(){
                             {title:"Plastic", href:"/plastic"},
                             {title:"Walls", href:"/walls"},
                             {title:"Trophies", href:"/trophies"}
-                        ]}                            
-                        />
+                        ]}
+                        onClick={(e) => {setShowMobileMenu(false);}}                      
+                    />
                 </div>
                 <div className='navigation-item'>
                     <DropdownLink className='navigation-dropdown'
@@ -41,20 +41,21 @@ function Navigation(){
                             {title:"Evolution", href:"/evolution"},
                             {title:"People", href:"/people"},
                             {title:"Technology", href:"/technology"}
-                        ]}/>                        
+                        ]}
+                        onClick={(e) => {setShowMobileMenu(false);}}/>                        
                 </div>
-                <div className='navigation-item'>
+                <div className='navigation-item' onClick={() => {setShowMobileMenu(false);}}>
                     <NavLink to="/partners">Partners</NavLink>
                 </div> 
             </>            
         )
     }
-
+    
     return (
         <div className='navigation_wrapper'>            
             <div className='mobile_navigation'>
-                <button ref={target} onClick={() => setShow(!show)} />                                           
-                    <Overlay target={target.current} show={show} placement="bottom" rootClose>
+                <button ref={target} onClick={() => setShowMobileMenu(!showMobileMenu)} />                                           
+                    <Overlay target={target.current} show={showMobileMenu} placement="bottom" rootClose onExited={()=>{setShowMobileMenu(false)}}>
                         {({                        
                         placement: _placement,
                         arrowProps: _arrowProps,

@@ -4,12 +4,12 @@ import React, { useState } from 'react';
 import Dropdown from 'react-bootstrap/Dropdown';
 import { NavLink } from 'react-router-dom';
 
-function DropdownLink({title, options, style}) {
+function DropdownLink({title, options, style, onClick}) {
   const CustomToggle = React.forwardRef(({ children, onClick }, ref) => (
     <a
       href=""
       ref={ref}
-      onClick={(e) => {
+      onClick={(e) => {        
         e.preventDefault();
         onClick(e);
       }}
@@ -29,7 +29,7 @@ function DropdownLink({title, options, style}) {
       const [value, setValue] = useState('');
   
       return (
-        <div
+        <div onClick={onClick}
           ref={ref}
           style={style}
           className={className}
