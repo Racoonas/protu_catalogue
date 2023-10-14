@@ -53,10 +53,9 @@ function Navigation(){
     return (
         <div className='navigation_wrapper'>            
             <div className='mobile_navigation'>
-                <button ref={target} onClick={() => setShow(!show)} />                
-                <OverlayTrigger trigger='click' rootClose>                
-                    <Overlay target={target.current} show={show} placement="bottom">
-                        {({
+                <button ref={target} onClick={() => setShow(!show)} />                                           
+                    <Overlay target={target.current} show={show} placement="bottom" rootClose>
+                        {({                        
                         placement: _placement,
                         arrowProps: _arrowProps,
                         show: _show,
@@ -78,8 +77,7 @@ function Navigation(){
                             {innerMenu()}
                         </div>
                         )}
-                    </Overlay>
-                </OverlayTrigger>
+                    </Overlay>                
             </div>
             <div className='navigation'>
                 <Navbar className='navbar-dark' bg = "navigation" collapseOnSelect>     
