@@ -50,16 +50,17 @@ function Navigation(){
             </>            
         )
     }
-    
+        
     return (
         <div className='navigation_wrapper'>            
-            <div className='mobile_navigation'>
+            <div className='mobile_navigation'>            
                 <button ref={target} onClick={() => setShowMobileMenu(!showMobileMenu)} />                                           
                     <Overlay 
                         target={target.current} 
                         show={showMobileMenu} 
                         placement="bottom" 
-                        rootClose = 'true'
+                        rootClose = {true}
+                        onHide={()=>{setShowMobileMenu(false)}}
                         >
                         
                         {({                        
@@ -84,7 +85,7 @@ function Navigation(){
                             {innerMenu()}
                         </div>
                         )}
-                    </Overlay>                
+                    </Overlay>
             </div>
             <div className='navigation'>
                 <Navbar className='navbar-dark' bg = "navigation" collapseOnSelect>     
