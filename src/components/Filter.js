@@ -1,4 +1,5 @@
 import { useSearchParams } from "react-router-dom";
+import Form from 'react-bootstrap/Form';
 
 function Filter({filterState, setFilterState}){            
 
@@ -8,18 +9,18 @@ function Filter({filterState, setFilterState}){
     const sizeDropdownOptions = ['All','S','M','L','XL','XXL','MEGA']
     const gripDropdownOptions = ['All','Crimp','Edge','Foot','Handle','Jug','Pinch','Pocket','Sloper','Swing','Toy']
     const complexityDropdownOptions = ['All','Easy','Medium','Guru']   
-        
-    return (
+                    
+    return (        
         <>
             <div className="filter">
                 <div className="filter_select_wrapper">
                     <div className="filter_select_label">Family:</div>
                     <div className="filter_select_div">
-                        <select className="filter_select" value={filterState.family} onChange={onFamilySelected}>
+                        <Form.Select bsPrefix='filter_select' value={filterState.family} onChange={onFamilySelected}>
                             {familyDropdownOptions.map((option, index)=>{
                                 return <option value = {option} key = {index}>{option}</option>
-                            })}
-                        </select>
+                            })}                                        
+                        </Form.Select>
                     </div>                       
                 </div>
                 <div className="filter_select_wrapper">
@@ -56,7 +57,7 @@ function Filter({filterState, setFilterState}){
         </>
     )            
         
-    function onFamilySelected(e){
+    function onFamilySelected(e){                
         let newState = {...filterState, family:e.target.value};
         setSearchParams(newState);
         setFilterState(newState);       

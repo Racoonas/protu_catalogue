@@ -6,19 +6,16 @@ function Footer(){
         <>
             <div className="pre_footer"></div>
             <div className="footer">            
-                <div className="inner_footer">
-                    <div>
-                        <span>CONTACT:</span>
-                    </div>
+                <div className="inner_footer">                    
                     <div>
                         <span>
-                            Kyiv, Ukraine <br/>
+                            Address: Kyiv, Ukraine <br/>
                             Email: protuholds@gmail.com
                         </span>
                     </div>
                     <div className="footer_social">
                         <a href="https://www.facebook.com/protuholds"><img src = {social_fb} alt=""/></a>
-                        <a href="https://www.instagram.com/protuholds/"><img src = {social_insta} alt=""/></a>
+                        <a href="https://www.instagram.com/protu_holds/"><img src = {social_insta} alt=""/></a>
                     </div>
                 </div>            
             </div>

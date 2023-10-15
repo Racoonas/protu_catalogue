@@ -55,7 +55,13 @@ function Navigation(){
         <div className='navigation_wrapper'>            
             <div className='mobile_navigation'>
                 <button ref={target} onClick={() => setShowMobileMenu(!showMobileMenu)} />                                           
-                    <Overlay target={target.current} show={showMobileMenu} placement="bottom" rootClose onExited={()=>{setShowMobileMenu(false)}}>
+                    <Overlay 
+                        target={target.current} 
+                        show={showMobileMenu} 
+                        placement="bottom" 
+                        rootClose = 'true'
+                        >
+                        
                         {({                        
                         placement: _placement,
                         arrowProps: _arrowProps,

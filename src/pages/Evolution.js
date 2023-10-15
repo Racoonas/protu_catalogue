@@ -22,7 +22,7 @@ function Evolution(){
                         Our shapes were mainly toys, which later made their way into the 'Animals' series.
                         Around 2017 we've made decision to use only PU {"("}Poly-Urethane{")"} in our castings. <br/>
                         <br/>
-                        Today Protu reg; is a registered trademark having production capabilities with PU pouring machines, degassing stations, post-curing ovens and around 300 shapes in our catalogue.<br/>
+                        Today Protu&reg; is a registered trademark having production capabilities with PU pouring machines, degassing stations, post-curing ovens and around 300 shapes in our catalogue.<br/>
                         <br/>
                         We took part in local Climbing Expos and the great <a href = "https://www.vertical-pro.com/information/halls-walls">'Halls And Walls'</a> expo. 
                         Our goods can be found in a big outdoor equipment centers in Kyiv.<br/>
