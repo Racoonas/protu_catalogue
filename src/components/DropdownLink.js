@@ -47,20 +47,20 @@ function DropdownLink({title, options, style, onClick}) {
   );
 
   return(
-    <Dropdown>
-      <Dropdown.Toggle as={CustomToggle} id="dropdown-custom-components">{title}</Dropdown.Toggle>      
-      <Dropdown.Menu as={CustomMenu}>
-        {options.map((option, index)=>{
-          return <Dropdown.Item 
-                    style={style}
-                    as = {NavLink}
-                    key = {index} 
-                    to={option.href}                    
-                    eventKey={index}> {option.title} 
-                </Dropdown.Item>
-        })
-      }
-      </Dropdown.Menu>      
+    <Dropdown drop="end">
+      <Dropdown.Toggle as={CustomToggle} id="dropdown-custom-components">{title}</Dropdown.Toggle>            
+        <Dropdown.Menu as={CustomMenu}>
+          {options.map((option, index)=>{
+            return <Dropdown.Item 
+                      style={style}
+                      as = {NavLink}
+                      key = {index} 
+                      to={option.href}                    
+                      eventKey={index}> {option.title} 
+                  </Dropdown.Item>
+          })
+        }
+        </Dropdown.Menu>            
     </Dropdown>
   );
 }
