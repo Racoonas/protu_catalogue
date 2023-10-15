@@ -9,7 +9,7 @@ function Footer(){
                 <div className="inner_footer">                    
                     <div>
                         <span>
-                            Address: Kyiv, Ukraine <br/>
+                            Location: Kyiv, Ukraine <br/>
                             Email: protuholds@gmail.com
                         </span>
                     </div>

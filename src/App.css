@@ -139,7 +139,7 @@
   position: relative;
   width: 90vw;    
   height: 30px;
-  display: grid;  
+  display: grid;
   margin: 0.3vh auto;  
   grid-template-columns: repeat(4, 1fr);  
   background-color: var(--main-color);  
@@ -194,6 +194,7 @@
 }
 
 .items_counter{
+  height: 25px;
   width:90vw;
   margin: 2px auto;
   font-family: var(--font-family);
@@ -293,7 +294,6 @@
     font-size: 15px;
   }
 }
-
 
 .item_details{  
   position: absolute;  
@@ -555,6 +555,8 @@
    color: var(--active-link-color);
 }
 
+/*-------------Photo Gallery------------- */
+
 .gallery_wrapper{  
   background-color: var(--white-blocks-color);  
   padding-top: 10px;
@@ -592,6 +594,8 @@
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
+/*-------------Partners Page------------- */
 
 .partners_wrapper{
   display: grid;

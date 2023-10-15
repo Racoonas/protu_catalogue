@@ -26,33 +26,33 @@ function Filter({filterState, setFilterState}){
                 <div className="filter_select_wrapper">
                     <div className="filter_select_label">Size:</div>
                     <div className="filter_select_div">
-                        <select className="filter_select" value={filterState.size} onChange={onSizeSelected}>
+                        <Form.Select bsPrefix='filter_select' value={filterState.size} onChange={onSizeSelected}>
                             {sizeDropdownOptions.map((option, index)=>{
                                 return <option value = {option} key = {index}>{option}</option>
                             })}
-                        </select>
+                        </Form.Select>
                     </div>
                 </div>
                 <div className="filter_select_wrapper">
                     <div className="filter_select_label">Grip:</div>
                         <div className="filter_select_div">
-                            <select className="filter_select" value={filterState.grip} onChange={onGripSelected}>
-                            {gripDropdownOptions.map((option, index)=>{
-                                return <option value = {option} key = {index}>{option}</option>
-                            })}
-                            </select>
+                            <Form.Select bsPrefix='filter_select' value={filterState.grip} onChange={onGripSelected}>
+                                {gripDropdownOptions.map((option, index)=>{
+                                    return <option value = {option} key = {index}>{option}</option>
+                                })}
+                            </Form.Select>
                     </div>
                 </div>
                 <div className="filter_select_wrapper">
-                <div className="filter_select_label">Complexity:</div>
-                    <div className="filter_select_div">
-                        <select className="filter_select" value={filterState.complexity} onChange={onComplexitySelected}>
-                        {complexityDropdownOptions.map((option, index)=>{
-                            return <option value = {option} key = {index}>{option}</option>
-                        })}
-                        </select>
-                    </div>          
-                </div>
+                    <div className="filter_select_label">Complexity:</div>
+                        <div className="filter_select_div">
+                            <Form.Select bsPrefix='filter_select' value={filterState.complexity} onChange={onComplexitySelected}>
+                                {complexityDropdownOptions.map((option, index)=>{
+                                    return <option value = {option} key = {index}>{option}</option>
+                                })}
+                            </Form.Select>
+                        </div>          
+                    </div>
             </div>
         </>
     )            
