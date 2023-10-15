@@ -47,7 +47,7 @@ function DropdownLink({title, options, style, onClick}) {
   );
 
   return(
-    <Dropdown drop="end" autoClose="outside">
+    <Dropdown drop="end">
       <Dropdown.Toggle as={CustomToggle} id="dropdown-custom-components">{title}</Dropdown.Toggle>            
         <Dropdown.Menu as={CustomMenu}>
           {options.map((option, index)=>{
