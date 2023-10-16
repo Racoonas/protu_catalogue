@@ -1,9 +1,9 @@
 [    
     {
-        "caption":"One of the earliest shapes - the Dragon",
-        "original":"pages/AboutUs/draco.png",
-        "thumbnail":"pages/AboutUs/draco.png",
-        "width":750,
+        "caption":"One of the latest shapes - Ow'ly and the earliest - the Dragon",
+        "original":"pages/AboutUs/draco_owly.png",
+        "thumbnail":"pages/AboutUs/draco_owly.png",
+        "width":1000,
         "height":750
     },
     {
@@ -25,7 +25,7 @@
         "caption":"Joined Ukrainian team (5 Fingers, RockWell, 12Climb, Protu) in Halls and Walls 2022 Expo",
         "original":"pages/AboutUs/HallsnWalls_UkrTeam.png",
         "thumbnail":"pages/AboutUs/HallsnWalls_UkrTeam.png",
-        "width":750,
+        "width":1000,
         "height":750
     }
 ]
