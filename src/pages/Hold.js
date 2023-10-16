@@ -45,9 +45,22 @@ function Hold(){
                 </div>
                 
                 <div className="holdset_wrapper">
-                    <div className="main_hold_image">
-                        <img src={mainImage} alt=""/>
-                    </div>                
+                    <div>
+                        <div className="holdset_gallery_image">
+                            <img src={mainImage} alt=""/>                        
+                        </div>                
+                        <div className="holdset_gallery">
+                            {holdDetails.images.map((imageSrc, index)=>{
+                                return (
+                                    <div className="holdset_gallery_item" key={index}>
+                                        <button onClick={()=>setMainImage(imageSrc)}>
+                                            <img src={imageSrc} alt=""/>
+                                        </button>
+                                    </div>
+                                )
+                            })}                        
+                        </div>    
+                    </div>                    
                     <div className="holdset_details">
                         <h2>Details:</h2>
                         <div className="holdset_general_details">
@@ -69,17 +82,7 @@ function Hold(){
                             <i style={{fontSize: "0.9rem"}}>*NOTE: Specified bolt length does not include any wall thickness. Measure thickness of your walls and add it to the bolt length when ordering bolts.</i><br/> */}
                         </div>
                     </div>
-                    <div className="holdset_gallery">
-                        {holdDetails.images.map((imageSrc, index)=>{
-                            return (
-                                <div className="holdset_gallery_item" key={index}>
-                                    <button onClick={()=>setMainImage(imageSrc)}>
-                                        <img src={imageSrc} alt=""/>
-                                    </button>
-                                </div>
-                            )
-                        })}                        
-                    </div>                    
+                                    
                 </div>
             </div>
         </>

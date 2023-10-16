@@ -337,10 +337,16 @@
 /*-------------Hold Page---------- */
 .holdset_overview{    
   width: 80vw;
-  height: 650px;
+  height: fit-content;
   margin: 0 auto;
   top:0;
   font-family: var(--font-family);
+}
+
+@media screen and (max-width: 620px) {
+  .holdset_details {
+    font-size: 13px;
+  }  
 }
 
 .breadcrumbs_wrapper{
@@ -367,12 +373,10 @@
 
 .holdset_wrapper{
   display: grid;
-  grid-template-columns: 1fr 1fr;    
+  grid-template-columns: 1fr 1fr;     
 }
 
-.holdset_details{  
-  grid-row-start: 1;
-  grid-row-end: 3;
+.holdset_details{    
   margin-left: 2vw;
   line-height: 1.5;  
 }
@@ -389,7 +393,7 @@
   margin-top: 3px;  
 }
 
-.main_hold_image{  
+.holdset_gallery_image{  
   display: flex;
   width: 50vw;  
   height:400px;
@@ -398,7 +402,7 @@
   margin-bottom: 5px ;  
 }
 
-.main_hold_image img{  
+.holdset_gallery_image img{  
   display: flex;
   margin: auto;
   max-height: 100%;
@@ -409,11 +413,7 @@
   display: grid;
   position: relative;
   width:50vw;
-  height: 100px;    
-  grid-column-start: 1;
-  grid-column-end: 1;
-  grid-row-start: 2;
-  grid-row-end: 2;  
+  height: 100px;      
   grid-template-columns: repeat(3, 1fr);  
   gap:5px;  
 }
