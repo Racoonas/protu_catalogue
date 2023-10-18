@@ -3,7 +3,7 @@
         "caption":"Climbing Community 2020. Our first excibition",
         "original":"pages/AboutUs/People1.png",
         "thumbnail":"pages/AboutUs/People1.png",
-        "width":750,
+        "width":1000,
         "height":750
     },
     {
@@ -17,42 +17,42 @@
         "caption":"'Niki and the Machine'",
         "original":"pages/AboutUs/People2.png",
         "thumbnail":"pages/AboutUs/People2.png",
-        "width":750,
+        "width":1000,
         "height":750
     },
     {
-        "caption":"Natali making molds for the slopers",
+        "caption":"Natali an Irene making molds",
         "original":"pages/AboutUs/People3.png",
         "thumbnail":"pages/AboutUs/People3.png",
-        "width":650,
+        "width":1000,
         "height":750
     },
     {
         "caption":"Demoulding holds with small helpers",
         "original":"pages/AboutUs/People6.png",
         "thumbnail":"pages/AboutUs/People6.png",
-        "width":1130,
+        "width":1000,
         "height":750
     },   
     {
         "caption":"Levko making silicone layer on the foam inserts",
         "original":"pages/AboutUs/People9.png",
         "thumbnail":"pages/AboutUs/People9.png",
-        "width":750,
+        "width":1000,
         "height":750
     },
     {
         "caption":"Assembling 'volcano' with Alex",
         "original":"pages/AboutUs/People10.png",
         "thumbnail":"pages/AboutUs/People10.png",
-        "width":750,
+        "width":1000,
         "height":750
     },    
     {
-        "caption":"Talking about holds production in Climbing Community 2022",
+        "caption":"Talking about holds production in Climbing Community 2020",
         "original":"pages/AboutUs/People8.png",
         "thumbnail":"pages/AboutUs/People8.png",
-        "width":600,
+        "width":1000,
         "height":750
     }
 ]

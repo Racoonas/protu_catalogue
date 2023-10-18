@@ -21,7 +21,7 @@ function Technology(){
                         Protu&reg; has full production cycle 'from shape to plastic' under the hood. <br/>
                         For casting we're using machine-poured Poly-Urethane. Same material brands and series which are used in climbing holds production across Europe. <br/>
                         <br/>
-                        Importantly - all holds are post-cured with temperature to get the best friction-resistant results.<br/>
+                        Importantly - all holds are post-cured with temperature to get the best friction-resistance results.<br/>
                         <br/>
                         Our tools include pouring machine, vacuum chambers, post-curing ovens, grinding machines and variety of specific instruments made for facility service and maintenance. 
                         Majority of our production tools were designed and made by ourselves.<br/>                        

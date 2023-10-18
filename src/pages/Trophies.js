@@ -8,7 +8,7 @@ function Trophies(){
         <div className="about_wrapper">
             <div className="breadcrumbs">
                 <Link to= "/">Home </Link>
-                / About /
+                / Projects /
                 <Link to= "/trophies"> Trophies</Link>
             </div> 
             <div className="about_wording">
