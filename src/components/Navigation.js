@@ -8,8 +8,9 @@ import {NavLink} from 'react-router-dom';
 import DropdownLink from './DropdownLink';
 
 function Navigation(){
-    const darkBackground = {
-        backgroundColor: 'var(--main-color)'
+    const dropdownStyle = {
+        backgroundColor: 'var(--main-color)',
+        borderRadius: 1,        
     }
 
     const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -23,7 +24,7 @@ function Navigation(){
                 </div>
                 <div className='navigation-item'>                        
                     <DropdownLink className='navigation-dropdown'
-                        style = {darkBackground}
+                        style = {dropdownStyle}
                         title = "Projects"
                         options = {[
                             {title:"Plastic", href:"/plastic"},
@@ -35,7 +36,7 @@ function Navigation(){
                 </div>
                 <div className='navigation-item'>
                     <DropdownLink className='navigation-dropdown'
-                        style = {darkBackground}
+                        style = {dropdownStyle}
                         title = "About"
                         options = {[
                             {title:"Evolution", href:"/evolution"},
@@ -56,6 +57,7 @@ function Navigation(){
             <div className='mobile_navigation'>            
                 <button ref={target} onClick={() => setShowMobileMenu(!showMobileMenu)} />                                           
                     <Overlay 
+                        className = "mobile_overlay"
                         target={target.current} 
                         show={showMobileMenu} 
                         placement="bottom" 
@@ -74,11 +76,15 @@ function Navigation(){
                         <div
                             {...props}
                             style={{
+                            display:"grid",
+                            width: "95vw",
+                            gap:"13px",
                             position: 'absolute',
                             backgroundColor: '#2B3036',
                             padding: '2px 10px',
                             color: 'white',
-                            borderRadius: 3,
+                            borderRadius: 1,
+                            marginTop:"20px",
                             ...props.style,
                             }}
                         >

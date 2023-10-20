@@ -14,8 +14,7 @@ function DropdownLink({title, options, style, onClick}) {
         onClick(e);
       }}
     >
-      {children}
-      &#x25bf; {/* - this is a down arrow symbol */}      
+      {children}      
     </a>
   ));
 
