@@ -31,6 +31,7 @@
   min-width: 40vw;
   margin: 0 auto;
   background-image: url("img/headerBack.png");
+  background-repeat: no-repeat; 
 }
 
 @media screen and (max-width: 800px) {
@@ -137,6 +138,11 @@
   background-color: var(--main-color);
 }
 
+@media screen and (min-width: 550px) {    
+  .dropdown .dropdown-menu{
+    margin-top: 35px;
+  }
+}
 /*-------------Filter------------- */
 .filter{  
   position: relative;
