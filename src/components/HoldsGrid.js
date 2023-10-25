@@ -13,7 +13,7 @@ function HoldsGrid({items}){
 
     return (      
       <>        
-        <div className='items_counter'>
+        <div id='totalItemsCounter' className='items_counter'>
             <span> Found: {items.length} sets</span>            
         </div>
         <div className='divider'>            
@@ -23,10 +23,10 @@ function HoldsGrid({items}){
               return <ItemBlock item = {pos} key={pos.key}/>
           })}
         </div>        
-        <div className='items_counter'>
+        <div id='displayedItemsCounter' className='items_counter'>
             <span> Showing: {slicedItems.length}/{items.length} sets</span>            
         </div>
-        {slicedItems.length<items.length && <button onClick={loadMore} className="load_more_button">SHOW MORE</button>}                
+        {slicedItems.length<items.length && <button onClick={loadMore} id='showMoreButton' className="load_more_button">SHOW MORE</button>}                
       </>
     )    
 }

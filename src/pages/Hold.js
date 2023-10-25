@@ -40,16 +40,15 @@ function Hold(){
                     <Link to="/holds"> Holds </Link>/
                     <Link to= {`/holds?family=${holdDetails.family}`}> {holdDetails.family} </Link>/ {holdDetails.set}
                 </div>
-                <div className="holdset_name">
+                <div id="holdsetName" className="holdset_name">
                     <h1>{holdDetails.set}</h1>                    
-                </div>
-                
+                </div>                
                 <div className="holdset_wrapper">
                     <div>
-                        <div className="holdset_gallery_image">
+                        <div id="holdsetMainImageContainer" className="holdset_gallery_image">
                             <img src={mainImage} alt=""/>                        
                         </div>                
-                        <div className="holdset_gallery">
+                        <div id="holdsetGalleryContainer" className="holdset_gallery">
                             {holdDetails.images.map((imageSrc, index)=>{
                                 return (
                                     <div className="holdset_gallery_item" key={index}>
@@ -61,7 +60,7 @@ function Hold(){
                             })}                        
                         </div>    
                     </div>                    
-                    <div className="holdset_details">
+                    <div id="holdsetDetailsContainer" className="holdset_details">
                         <h2>Details:</h2>
                         <div className="holdset_general_details">
                             <h3>Price: <span className="holdset_price">${holdDetails.price} </span> </h3>
