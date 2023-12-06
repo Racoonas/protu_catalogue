@@ -970,5 +970,57 @@
         "boltLength":0,                            
         "shaper": "Dmytro Karunas",
         "description":"Easy-looking, yet challenging holds."
-    }    
+    }, 
+    {
+        "key":1301,
+        "family":"Simples",
+        "set":"Round Things",
+        "size":"S,M,L",
+        "grip":"Sloper",
+        "complexity":"Medium, Guru",
+        "quantity":6,
+        "price":70,
+        "images":["../catalogue/roundthings/ROUND_FULL_1.png",
+                  "../catalogue/roundthings/ROUND_FULL_2.png"],
+        "orderCode":"ROUND-FULL",
+        "weight":1500,
+        "boltLength":0,                            
+        "shaper": "Dmytro Karunas",
+        "description":"Simply... Round things for whatever reason. Long route, boulder or your campus."
+    },
+    {
+        "key":1401,
+        "family":"Simples",
+        "set":"PeakyPyramids",
+        "size":"M",
+        "grip":"Crimp",
+        "complexity":"Medium, Guru",
+        "quantity":4,
+        "price":30,
+        "images":["../catalogue/peakypyramids/PEAKPYRAMIDS_FULL_1.png",
+                  "../catalogue/peakypyramids/PEAKPYRAMIDS_FULL_2.png"],
+        "orderCode":"PYRAMIDS-FULL",
+        "weight":1100,
+        "boltLength":0,                            
+        "shaper": "Dmytro Karunas",
+        "description":"Sharp crimps around the edges can be used as crimps or footholds."
+    },
+    {
+        "key":1501,
+        "family":"Dovbushi",
+        "set":"paws",
+        "size":"M",
+        "grip":"Crimp",
+        "complexity":"Medium, Guru",
+        "quantity":4,
+        "price":30,
+        "images":["../catalogue/paws/PAWS_FULL_1.png",
+                  "../catalogue/paws/PAWS_FULL_2.png",
+                  "../catalogue/paws/PAWS_FULL_3.png"],
+        "orderCode":"PAWS-FULL",
+        "weight":1100,
+        "boltLength":0,                            
+        "shaper": "Dmytro Karunas",
+        "description":"Someone left an imprint in a puffy slopery hold. ...and it became a good crimp."
+    }
 ]
