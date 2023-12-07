@@ -986,11 +986,11 @@
         "weight":1500,
         "boltLength":0,                            
         "shaper": "Dmytro Karunas",
-        "description":"Simply... Round things for whatever reason. Long route, boulder or your campus."
+        "description":"Simply... round things for whatever reason. Classic long route, boulder problem or even your own hangboard."
     },
     {
         "key":1401,
-        "family":"Simples",
+        "family":"Stones",
         "set":"Peaky Pyramids",
         "size":"M",
         "grip":"Crimp",
@@ -1014,13 +1014,13 @@
         "complexity":"Medium, Guru",
         "quantity":4,
         "price":30,
-        "images":["../catalogue/paws/PAWS_FULL_1.png",
+        "images":["../catalogue/paws/PAWS_FULL_3.png",
                   "../catalogue/paws/PAWS_FULL_2.png",
-                  "../catalogue/paws/PAWS_FULL_3.png"],
+                  "../catalogue/paws/PAWS_FULL_1.png"],
         "orderCode":"PAWS-FULL",
         "weight":1100,
         "boltLength":0,                            
-        "shaper": "Dmytro Karunas",
+        "shaper": "Olena Shurubor, Dmytro Karunas",
         "description":"Someone left an imprint in a puffy slopery hold. ...and it became a good crimp."
     }
 ]
