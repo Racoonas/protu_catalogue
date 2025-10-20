@@ -1,9 +1,10 @@
 import {Link} from "react-router-dom";
 
-import HyperionLogo from '../img/Partners/Hyperion.png'
-import SpaceLogo from '../img/Partners/ClimbingSpace.png'
-import RockWellLogo from '../img/Partners/Rockwell.png'
-import OneTwoClimbLogo from '../img/Partners/12Climb.png'
+import FiveFingersLogo from '../img/Partners/5fingers.webp'
+import HyperionLogo from '../img/Partners/Hyperion.webp'
+import SpaceLogo from '../img/Partners/ClimbingSpace.webp'
+import RockWellLogo from '../img/Partners/Rockwell.webp'
+import OneTwoClimbLogo from '../img/Partners/12Climb.webp'
 
 function Partners(){
     return (
@@ -18,6 +19,15 @@ function Partners(){
             <h1>Partners and Friends</h1>
         </div>                    
         <div className="partners_wrapper">                    
+             <div className='partners_item'>
+                <a href = "https://www.5fingers.shop/">
+                    <img src = {FiveFingersLogo} alt = ""/>
+                </a>
+                <span>
+                    5Fingers Climbing holds is a manufacturer of high-quality climbing holds. <br/>
+                    They offer a wide range of holds for all types of climbing, including bouldering and sport climbing.
+                </span>
+            </div>
             <div className='partners_item'>
                 <a href = "https://www.climbingspace.com.ua/">
                     <img src = {SpaceLogo} alt = ""/>
