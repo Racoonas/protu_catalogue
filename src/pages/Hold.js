@@ -63,7 +63,7 @@ function Hold(){
                     <div id="holdsetDetailsContainer" className="holdset_details">
                         <h2>Details:</h2>
                         <div className="holdset_general_details">
-                            <h3>Price: <span className="holdset_price">${holdDetails.price} </span> </h3>
+                            <h3>Price: <span className="holdset_price">€{holdDetails.price} </span> </h3>
                             <span>Family:</span> {holdDetails.family} <br/>
                             <span>Size:</span> {holdDetails.size} <br/>
                             <span>Griptype:</span> {holdDetails.grip} <br/>
