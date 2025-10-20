@@ -1,43 +1,43 @@
 [    
     {
         "caption":"Early version of the static mixing head",
-        "original":"pages/AboutUs/Technology1.png",
-        "thumbnail":"pages/AboutUs/Technology1.png",
+        "original":"pages/AboutUs/Technology1.webp",
+        "thumbnail":"pages/AboutUs/Technology1.webp",
         "width":1000,
         "height":750
     },
     {
         "caption":"Fine tuning cap 3D Model",
-        "original":"pages/AboutUs/Technology2.png",
-        "thumbnail":"pages/AboutUs/Technology2.png",
+        "original":"pages/AboutUs/Technology2.webp",
+        "thumbnail":"pages/AboutUs/Technology2.webp",
         "width":1000,
         "height":750
     },
     {
         "caption":"Mixing machine and the post-curing oven",
-        "original":"pages/AboutUs/Technology3.png",
-        "thumbnail":"pages/AboutUs/Technology3.png",
+        "original":"pages/AboutUs/Technology3.webp",
+        "thumbnail":"pages/AboutUs/Technology3.webp",
         "width":1000,
         "height":750
     },       
     {
         "caption":"3D Model of the tribological tool",
-        "original":"pages/AboutUs/Technology4.png",
-        "thumbnail":"pages/AboutUs/Technology4.png",
+        "original":"pages/AboutUs/Technology4.webp",
+        "thumbnail":"pages/AboutUs/Technology4.webp",
         "width":1000,
         "height":750
     }, 
     {
         "caption":"DIY air drying filter (covered) and a very sturdy handle for the mixing head",
-        "original":"pages/AboutUs/Technology5.png",
-        "thumbnail":"pages/AboutUs/Technology5.png",
+        "original":"pages/AboutUs/Technology5.webp",
+        "thumbnail":"pages/AboutUs/Technology5.webp",
         "width":1000,
         "height":750
     },
     {
         "caption":"One of our largest vacuum chambers while modelling",
-        "original":"pages/AboutUs/Technology6.png",
-        "thumbnail":"pages/AboutUs/Technology6.png",
+        "original":"pages/AboutUs/Technology6.webp",
+        "thumbnail":"pages/AboutUs/Technology6.webp",
         "width":1000,
         "height":750
     }
