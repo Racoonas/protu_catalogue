@@ -19,7 +19,7 @@ function Partners(){
             <h1>Partners and Friends</h1>
         </div>                    
         <div className="partners_wrapper">                    
-             <div className='partners_item'>
+            <div className='partners_item'>
                 <a href = "https://www.5fingers.shop/">
                     <img src = {FiveFingersLogo} alt = ""/>
                 </a>
@@ -65,7 +65,7 @@ function Partners(){
                     12Climb app is widely used in the biggest climbing halls in Ukraine.
                 </span>
             </div>            
-        </div>          
+        </div>                 
         </>
     );
 };
